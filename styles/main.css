@@ -1,0 +1,93 @@
+body {
+    background-color: #F3F3D4;
+}
+
+.main-container {
+    width: 976px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-container div {
+    width: 468px;
+    height: 160px;
+    margin: 10px;
+    background-color: #92BB96;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 div {
+    width: 78px;
+    height: 78px;
+    margin-left: 19px;
+    margin-bottom: 19px;
+    background-color: #F27070;
+    border-radius: 4px;
+    align-self: end;
+}
+
+.container2 div {
+    width: 78px;
+    height: 120px;
+    margin: 10px;
+    background-color: #F27070;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 div {
+    width: 78px;
+    height: 78px;
+    margin-left: 19px;
+    margin-bottom: 19px;
+    background-color: #F27070;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.container4 div {
+    display: flex;
+    width: 78px;
+    height: 78px;
+    margin-left: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F27070;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container4-box3 {
+    align-self: flex-end;
+}
+
+.container5 div {
+    display: flex;
+    justify-content: center;
+    width: 78px;
+    height: 120px;
+    margin: 10px;
+    background-color: #F27070;
+    border-radius: 4px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2-box5 {
+    height: 48px;
+    width: 78px;
+}
