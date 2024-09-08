@@ -15,79 +15,167 @@ body {
     margin-right: auto;
 }
 
-.main-container div {
+.container1 {
     width: 468px;
     height: 160px;
     margin: 10px;
     background-color: #92BB96;
     border-radius: 4px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
-.container1 div {
+.square {
     width: 78px;
     height: 78px;
-    margin-left: 19px;
-    margin-bottom: 19px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     background-color: #F27070;
     border-radius: 4px;
-    align-self: end;
+
 }
 
-.container2 div {
+.container2 {
+    width: 468px;
+    height: 160px;
+    margin: 10px;
+    background-color: #92BB96;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.square2 {
     width: 78px;
     height: 120px;
     margin: 10px;
     background-color: #F27070;
     border-radius: 4px;
+}
+
+.container3 {
+    width: 468px;
+    height: 160px;
+    margin: 10px;
+    background-color: #92BB96;
+    border-radius: 4px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.container3 div {
+.square3 {
     width: 78px;
     height: 78px;
-    margin-left: 19px;
-    margin-bottom: 19px;
+    margin-right: 20px;
     background-color: #F27070;
     border-radius: 4px;
-    align-self: center;
 }
 
-.container4 div {
+.container4 {
+    width: 468px;
+    height: 160px;
+    margin: 10px;
+    background-color: #92BB96;
+    border-radius: 4px;
     display: flex;
-    width: 78px;
-    height: 78px;
-    margin-left: 19px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #F27070;
-    border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.container4-box3 {
+.square4 {
+    width: 78px;
+    height: 78px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #F27070;
+    border-radius: 4px;
+}
+
+.square4-item {
+    width: 78px;
+    height: 78px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #F27070;
+    border-radius: 4px;
     align-self: flex-end;
+}
+
+.container5 {
+    width: 468px;
+    height: 160px;
+    margin: 10px;
+    background-color: #92BB96;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.square5 {
+    width: 78px;
+    height: 120px;
+    margin-left: 9px;
+    background-color: #F27070;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.square5-item1 {
+    height: 64px;
+    width: 78px;
+    background-color: #F27070;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.square5-item2 {
+    height: 120px;
+    width: 78px;
+    margin-right: 9px;
+    background-color: #F27070;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 .container5 div {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 19px;
+}
+
+.container6 {
+    width: 468px;
+    height: 160px;
+    margin: 10px;
+    background-color: #92BB96;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square6 {
     width: 78px;
-    height: 120px;
+    height: 78px;
     margin: 10px;
     background-color: #F27070;
     border-radius: 4px;
-    align-self: center;
-    align-items: center;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container2-box5 {
-    height: 48px;
-    width: 78px;
+.square6-item {
+    width: 156px;
+    height: 78px;
+    margin: 10px;
+    background-color: #F27070;
+    border-radius: 4px;
 }
